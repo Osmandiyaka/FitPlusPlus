@@ -3,10 +3,11 @@ package clients;
 
 import clients.dtos.ClientOuput;
 import clients.dtos.CreateOrEditClientInput;
-import com.enterpriseframework.service.AppServiceBase;
+import com.enterpriseframework.service.AppServiceBaseImpl;
+import entities.Client;
 
 
-public class ClientsAppServiceImpl  extends AppServiceBase implements ClientsAppService{
+public class ClientsAppServiceImpl  extends AppServiceBaseImpl<Client> implements ClientsAppService{
 
     @Override
     public void createOrEditClient(CreateOrEditClientInput input) {
