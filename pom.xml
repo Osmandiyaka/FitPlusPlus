@@ -20,5 +20,6 @@
     <module>FPP.Application</module>
     <module>FPP.Application.Share</module>
     <module>FPP.Domain</module>
+    <module>EnterpriseFramework</module>
   </modules>
 </project>

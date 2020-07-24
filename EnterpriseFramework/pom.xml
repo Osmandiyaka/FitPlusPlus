@@ -7,12 +7,12 @@
     <version>1.0</version>
   </parent>
 
-    <groupId>com.fpp</groupId>
-    <artifactId>FPP.Application</artifactId>
+    <groupId>com.ef</groupId>
+    <artifactId>EnterpriseFramework</artifactId>
     <version>1.0</version>
     <packaging>ejb</packaging>
 
-    <name>FPP.Application</name>
+    <name>EnterpriseFramework</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -20,16 +20,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.ef</groupId>
-            <artifactId>EnterpriseFramework</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>FPP.Application.Share</artifactId>
-            <version>${project.version}</version>
-        </dependency>
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
